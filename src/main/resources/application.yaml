@@ -1,3 +1,7 @@
 spring:
   application:
     name: desafioCadastro
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pets
+    username: pets_user
+    password: pets_pass
